@@ -5,6 +5,7 @@ import React from "react";
 import HeaderBackground from "./main-header-background";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
+import NavLink from "./nav-link";
 
 function Header() {
   return (
@@ -18,10 +19,10 @@ function Header() {
         <nav className={classes.nav}>
           <ul>
             <li>
-              <Link href={"/meals"}>Browse Meal</Link>
+              <NavLink href={"/meals"}>Browse Meal</NavLink>
             </li>
             <li>
-              <Link href={"/community"}>Community</Link>
+              <NavLink href={"/community"}>Community</NavLink>
             </li>
           </ul>
         </nav>
