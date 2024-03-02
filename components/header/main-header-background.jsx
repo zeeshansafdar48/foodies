@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./main-header-background.module.css";
+import classes from "./main-header-background.module.css";
 
 function HeaderBackground() {
   return (
-    <div className={styles["header-background"]}>
+    <div className={classes["header-background"]}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <defs>
           <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
